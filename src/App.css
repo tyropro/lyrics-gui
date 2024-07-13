@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+
+	background-color: #202124;
+	color: #ffffff;
+}
+
+.container {
+	margin: 1rem;
+}
+
+#lyrics {
+	white-space: pre-wrap;
+	background-color: #28292a;
+	padding: 1rem;
+
+	border-radius: 16px;
+}
+
+.query-form {
+	/* margin: 1rem; */
+	align-items: left;
+	margin-top: 2rem;
+	display: inline-block;
+}
+
+.query-item {
+	/* margin-left: 0.25rem; */
+	margin-right: 1rem;
+}
+
+#query-input {
+	font-size: 16px;
+	font-size: Max(16px, 1em);
+	font-family: inherit;
+	padding: 0.25em 0.5em;
+	padding-left: 1.25rem;
+	background-color: #fff;
+	border: 2px solid var(--input-border);
+	border-radius: 16px;
+	transition: 180ms box-shadow ease-in-out;
+	/* margin-left: 0.75rem; */
+
+	background-color: #262a32;
+	color: #e7e9ec;
+}
+
+.btn {
+	background-color: #fff;
+	border: 2px solid var(--input-border);
+	border-radius: 4px;
+	font-size: 16px;
+	font-size: Max(16px, 1em);
+	font-family: inherit;
+	padding: 0.25em 0.5em;
+	transition: all 0.2s ease-in-out;
+	border-radius: 16px;
+
+	background-color: #8ab4f8;
+	color: black;
+}
+
+.btn:hover {
+	opacity: 0.6;
+	transition: all 0.2s ease-in-out;
+}
+
+#get-spotify-song-btn {
+	align-items: right;
+	display: inline-block;
+}
+
+#tab-btn {
+	text-decoration: none;
+}
